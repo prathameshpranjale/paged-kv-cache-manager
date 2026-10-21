@@ -1,0 +1,171 @@
+scenario,system,seed,util,mean_conc,peak_conc,tok_per_step,p50,p95,queue_mean,preempt,recomputed,cow,saved_mean,saved_peak,swap_out,cache_hits,cache_evictions,prefill_computed,prefill_saved,p95_high,p95_low,queue_high,queue_low
+"A uniform lengths, memory-bound",paged-FCFS,1,98.339,113.743,154,113.651,259,495,4.07333,206,54575,0,0,0,0,0,0,466787,0,0,495,0,4.07333
+"A uniform lengths, memory-bound",paged-SPF,1,98.3391,113.938,153,113.848,258,493,2.24333,201,58253,0,0,0,0,0,0,470465,0,0,493,0,2.24333
+"A uniform lengths, memory-bound",contig-maxlen,1,21.6863,31.3018,32,31.2993,4670,8999,4464.31,0,0,0,0,0,0,0,0,0,0,0,8999,0,4464.31
+"A uniform lengths, memory-bound",contig-oracle,1,72.3244,96.3625,114,96.339,514,948,271.637,0,0,0,0,0,0,0,0,0,0,0,948,0,271.637
+"A uniform lengths, memory-bound",paged-FCFS,2,98.3384,117.078,153,116.941,283,498,10.7093,354,95269,0,0,0,0,0,0,506650,0,0,498,0,10.7093
+"A uniform lengths, memory-bound",paged-SPF,2,98.3387,117.658,153,117.522,281,494,5.754,345,98811,0,0,0,0,0,0,510192,0,0,494,0,5.754
+"A uniform lengths, memory-bound",contig-maxlen,2,21.6846,31.1383,32,31.1359,4967,9296,4707.01,0,0,0,0,0,0,0,0,0,0,0,9296,0,4707.01
+"A uniform lengths, memory-bound",contig-oracle,2,72.1761,95.2154,113,95.1928,689,1098,408.445,0,0,0,0,0,0,0,0,0,0,0,1098,0,408.445
+"A uniform lengths, memory-bound",paged-FCFS,3,98.3489,114.486,153,114.37,272,497,6.94867,292,80851,0,0,0,0,0,0,496361,0,0,497,0,6.94867
+"A uniform lengths, memory-bound",paged-SPF,3,98.3489,114.475,150,114.37,267,495,3.548,254,73250,0,0,0,0,0,0,488760,0,0,495,0,3.548
+"A uniform lengths, memory-bound",contig-maxlen,3,21.8118,31.1356,32,31.1332,4851,9259,4621.71,0,0,0,0,0,0,0,0,0,0,0,9259,0,4621.71
+"A uniform lengths, memory-bound",contig-oracle,3,72.1617,94.348,112,94.3259,608,1093,346.391,0,0,0,0,0,0,0,0,0,0,0,1093,0,346.391
+"A uniform lengths, memory-bound",paged-FCFS,4,98.3356,116.463,151,116.397,281,492,1.05667,120,35458,0,0,0,0,0,0,440662,0,0,492,0,1.05667
+"A uniform lengths, memory-bound",paged-SPF,4,98.3357,116.459,151,116.397,282,492,0.622,106,35146,0,0,0,0,0,0,440350,0,0,492,0,0.622
+"A uniform lengths, memory-bound",contig-maxlen,4,21.6399,31.2064,32,31.2041,5144,9494,4853.75,0,0,0,0,0,0,0,0,0,0,0,9494,0,4853.75
+"A uniform lengths, memory-bound",contig-oracle,4,71.9098,95.5941,122,95.572,684,1099,399.91,0,0,0,0,0,0,0,0,0,0,0,1099,0,399.91
+"A uniform lengths, memory-bound",paged-FCFS,5,98.322,113.252,153,113.199,276,490,1.212,80,24603,0,0,0,0,0,0,430663,0,0,490,0,1.212
+"A uniform lengths, memory-bound",paged-SPF,5,98.322,113.251,153,113.199,275,489,0.667333,74,24105,0,0,0,0,0,0,430165,0,0,489,0,0.667333
+"A uniform lengths, memory-bound",contig-maxlen,5,21.4636,31.1161,32,31.1138,4934,9307,4665.78,0,0,0,0,0,0,0,0,0,0,0,9307,0,4665.78
+"A uniform lengths, memory-bound",contig-oracle,5,71.9068,94.9461,114,94.924,563,970,294.143,0,0,0,0,0,0,0,0,0,0,0,970,0,294.143
+"B long-tailed lengths, memory not binding",paged-FCFS,1,94.9171,76.4673,181,76.3765,26,136,0,0,0,0,0,0,0,0,0,119997,0,0,136,0,0
+"B long-tailed lengths, memory not binding",contig-maxlen,1,6.87896,28.3674,32,28.3549,784,1516,735.871,0,0,0,0,0,0,0,0,0,0,0,1516,0,735.871
+"B long-tailed lengths, memory not binding",contig-oracle,1,68.7178,76.4673,181,76.3765,26,136,0,0,0,0,0,0,0,0,0,0,0,0,136,0,0
+"B long-tailed lengths, memory not binding",paged-FCFS,2,95.0582,74.6842,189,74.5929,26,112,0,0,0,0,0,0,0,0,0,136411,0,0,112,0,0
+"B long-tailed lengths, memory not binding",contig-maxlen,2,7.08484,29.3492,32,29.3351,756,1475,733.166,0,0,0,0,0,0,0,0,0,0,0,1475,0,733.166
+"B long-tailed lengths, memory not binding",contig-oracle,2,74.0639,74.6842,189,74.5929,26,112,0,0,0,0,0,0,0,0,0,0,0,0,112,0,0
+"B long-tailed lengths, memory not binding",paged-FCFS,3,94.8264,70.5457,181,70.4621,26,105,0,0,0,0,0,0,0,0,0,122824,0,0,105,0,0
+"B long-tailed lengths, memory not binding",contig-maxlen,3,6.74023,26.2445,32,26.2329,693,1408,679.653,0,0,0,0,0,0,0,0,0,0,0,1408,0,679.653
+"B long-tailed lengths, memory not binding",contig-oracle,3,71.5567,70.5457,181,70.4621,26,105,0,0,0,0,0,0,0,0,0,0,0,0,105,0,0
+"B long-tailed lengths, memory not binding",paged-FCFS,4,94.613,74.5044,164,74.411,26,101,0,0,0,0,0,0,0,0,0,129083,0,0,101,0,0
+"B long-tailed lengths, memory not binding",contig-maxlen,4,6.45751,28.3166,32,28.3031,731,1384,691.193,0,0,0,0,0,0,0,0,0,0,0,1384,0,691.193
+"B long-tailed lengths, memory not binding",contig-oracle,4,71.5783,74.5044,164,74.411,26,101,0,0,0,0,0,0,0,0,0,0,0,0,101,0,0
+"B long-tailed lengths, memory not binding",paged-FCFS,5,94.9008,72.3544,190,72.2715,25,119,0,0,0,0,0,0,0,0,0,121266,0,0,119,0,0
+"B long-tailed lengths, memory not binding",contig-maxlen,5,6.84634,28.3055,32,28.2928,732,1483,715.823,0,0,0,0,0,0,0,0,0,0,0,1483,0,715.823
+"B long-tailed lengths, memory not binding",contig-oracle,5,69.6329,72.3544,190,72.2715,25,119,0,0,0,0,0,0,0,0,0,0,0,0,119,0,0
+"C 70% share a 512-token system prompt",paged-FCFS,1,96.8484,107.785,147,107.731,146,248,0,0,0,0,2478.35,3616,0,0,0,211708,554496,0,248,0,0
+"C 70% share a 512-token system prompt",paged-FCFS-noshare,1,98.7619,97.5384,120,97.4199,235,381,90.4887,165,85781,0,0,0,0,0,0,851985,0,0,381,0,90.4887
+"C 70% share a 512-token system prompt",contig-maxlen,1,29.2187,31.2415,32,31.237,2578,4788,2422.51,0,0,0,0,0,0,0,0,0,0,0,4788,0,2422.51
+"C 70% share a 512-token system prompt",contig-oracle,1,87.2399,87.5751,104,87.5396,361,611,216.294,0,0,0,0,0,0,0,0,0,0,0,611,0,216.294
+"C 70% share a 512-token system prompt",paged-FCFS,2,96.9064,109.134,155,109.079,144,245,0,0,0,0,2340.93,3520,0,0,0,216665,519680,0,245,0,0
+"C 70% share a 512-token system prompt",paged-FCFS-noshare,2,98.7187,99.3359,123,99.2085,212,373,64.7893,178,92387,0,0,0,0,0,0,828732,0,0,373,0,64.7893
+"C 70% share a 512-token system prompt",contig-maxlen,2,28.2364,31.2829,32,31.2783,2476,4816,2371.82,0,0,0,0,0,0,0,0,0,0,0,4816,0,2371.82
+"C 70% share a 512-token system prompt",contig-oracle,2,86.9037,89.3205,110,89.2836,311,593,177.92,0,0,0,0,0,0,0,0,0,0,0,593,0,177.92
+"C 70% share a 512-token system prompt",paged-FCFS,3,96.8861,102.903,144,102.853,140,245,0,0,0,0,2335.33,3168,0,0,0,212963,553984,0,245,0,0
+"C 70% share a 512-token system prompt",paged-FCFS-noshare,3,98.7581,95.0099,120,94.9129,192,343,53.4727,121,63521,0,0,0,0,0,0,830468,0,0,343,0,53.4727
+"C 70% share a 512-token system prompt",contig-maxlen,3,29.1243,31.1667,32,31.1621,2384,4628,2286.2,0,0,0,0,0,0,0,0,0,0,0,4628,0,2286.2
+"C 70% share a 512-token system prompt",contig-oracle,3,87.4017,86.5245,103,86.4892,278,525,148.375,0,0,0,0,0,0,0,0,0,0,0,525,0,148.375
+"C 70% share a 512-token system prompt",paged-FCFS,4,96.9555,108.208,147,108.154,148,246,0,0,0,0,2393.16,3392,0,0,0,220921,540160,0,246,0,0
+"C 70% share a 512-token system prompt",paged-FCFS-noshare,4,98.7502,98.2187,120,98.1059,259,408,107.861,153,83104,0,0,0,0,0,0,844185,0,0,408,0,107.861
+"C 70% share a 512-token system prompt",contig-maxlen,4,28.943,31.4097,32,31.4052,2654,4869,2478.96,0,0,0,0,0,0,0,0,0,0,0,4869,0,2478.96
+"C 70% share a 512-token system prompt",contig-oracle,4,87.1789,87.9244,103,87.889,399,625,233.717,0,0,0,0,0,0,0,0,0,0,0,625,0,233.717
+"C 70% share a 512-token system prompt",paged-FCFS,5,96.8912,105.603,142,105.551,145,244,0,0,0,0,2331.2,3104,0,0,0,216140,531968,0,244,0,0
+"C 70% share a 512-token system prompt",paged-FCFS-noshare,5,98.7377,98.4262,122,98.2968,229,351,84.668,186,94570,0,0,0,0,0,0,842678,0,0,351,0,84.668
+"C 70% share a 512-token system prompt",contig-maxlen,5,28.6673,31.3938,32,31.3892,2582,4782,2439.16,0,0,0,0,0,0,0,0,0,0,0,4782,0,2439.16
+"C 70% share a 512-token system prompt",contig-oracle,5,87.1041,88.1102,107,88.0742,367,560,209.125,0,0,0,0,0,0,0,0,0,0,0,560,0,209.125
+"D tight memory, overload",paged-FCFS,1,98.3378,26.4286,36,26.3537,6550,12729,6380.03,1097,312836,0,0,0,0,0,0,725048,0,0,12729,0,6380.03
+"D tight memory, overload",paged-SPF,1,98.3366,26.4763,64,26.3801,4681,13112,4905.94,1415,318884,0,0,0,0,0,0,731096,0,0,13112,0,4905.94
+"D tight memory, overload",contig-maxlen,1,43.3726,11.9358,12,11.9355,15488,30007,15372.8,0,0,0,0,0,0,0,0,0,0,0,30007,0,15372.8
+"D tight memory, overload",contig-oracle,1,72.3244,19.2894,24,19.2885,9187,18014,9101.04,0,0,0,0,0,0,0,0,0,0,0,18014,0,9101.04
+"D tight memory, overload",paged-FCFS,2,98.3376,26.368,43,26.293,6910,12912,6602.99,1121,322673,0,0,0,0,0,0,734054,0,0,12912,0,6602.99
+"D tight memory, overload",paged-SPF,2,98.3363,26.4505,62,26.3533,4910,13399,5043.15,1455,332932,0,0,0,0,0,0,744313,0,0,13399,0,5043.15
+"D tight memory, overload",contig-maxlen,2,43.3692,11.8896,12,11.8892,16071,30526,15828.8,0,0,0,0,0,0,0,0,0,0,0,30526,0,15828.8
+"D tight memory, overload",contig-oracle,2,72.1761,19.2364,25,19.2354,9727,18255,9426.75,0,0,0,0,0,0,0,0,0,0,0,18255,0,9426.75
+"D tight memory, overload",paged-FCFS,3,98.348,26.1523,36,26.0808,6801,13011,6626.45,1077,317164,0,0,0,0,0,0,732674,0,0,13011,0,6626.45
+"D tight memory, overload",paged-SPF,3,98.347,26.2325,71,26.1367,5172,13398,5133.61,1450,329480,0,0,0,0,0,0,744990,0,0,13398,0,5133.61
+"D tight memory, overload",contig-maxlen,3,43.6236,11.9058,12,11.9055,15910,30598,15829.2,0,0,0,0,0,0,0,0,0,0,0,30598,0,15829.2
+"D tight memory, overload",contig-oracle,3,72.1617,19.0536,24,19.0527,9690,18419,9498.98,0,0,0,0,0,0,0,0,0,0,0,18419,0,9498.98
+"D tight memory, overload",paged-FCFS,4,98.3343,26.3623,38,26.2855,7198,13243,6843.67,1178,331311,0,0,0,0,0,0,736515,0,0,13243,0,6843.67
+"D tight memory, overload",paged-SPF,4,98.3332,26.7196,65,26.6215,4913,13565,5110.17,1494,338729,0,0,0,0,0,0,743933,0,0,13565,0,5110.17
+"D tight memory, overload",contig-maxlen,4,43.2797,11.913,12,11.9127,16741,31363,16403.9,0,0,0,0,0,0,0,0,0,0,0,31363,0,16403.9
+"D tight memory, overload",contig-oracle,4,71.9098,19.1517,24,19.1508,10167,18834,9826.99,0,0,0,0,0,0,0,0,0,0,0,18834,0,9826.99
+"D tight memory, overload",paged-FCFS,5,98.3206,26.5795,40,26.5012,6853,13025,6574.25,1181,334593,0,0,0,0,0,0,740653,0,0,13025,0,6574.25
+"D tight memory, overload",paged-SPF,5,98.3193,26.7527,62,26.6515,4958,13387,5072.11,1524,342537,0,0,0,0,0,0,748597,0,0,13387,0,5072.11
+"D tight memory, overload",contig-maxlen,5,42.9271,11.8886,12,11.8883,16453,31006,16123.4,0,0,0,0,0,0,0,0,0,0,0,31006,0,16123.4
+"D tight memory, overload",contig-oracle,5,71.9068,19.3214,23,19.3205,9778,18484,9480.65,0,0,0,0,0,0,0,0,0,0,0,18484,0,9480.65
+"E parallel sampling, 4 samples per prompt",paged-FCFS,1,96.208,138.465,209,138.443,146,246,0,0,0,4206,1434.68,2398,0,0,0,402262,0,0,246,0,0
+"E parallel sampling, 4 samples per prompt",paged-FCFS-nofork,1,97.9313,138.474,200,138.443,146,247,0.504667,59,18388,0,0,0,0,0,0,1627436,0,0,247,0,0.504667
+"E parallel sampling, 4 samples per prompt",contig-maxlen,1,17.3345,31.851,32,31.8499,10444,20110,10420.2,0,0,0,0,0,0,0,0,0,0,0,20110,0,10420.2
+"E parallel sampling, 4 samples per prompt",contig-oracle,1,80.2438,138.355,167,138.333,188,318,41.522,0,0,0,0,0,0,0,0,0,0,0,318,0,41.522
+"E parallel sampling, 4 samples per prompt",paged-FCFS,2,96.2401,136.811,215,136.789,143,246,0,0,0,4209,1429.62,2297,0,0,0,409874,0,0,246,0,0
+"E parallel sampling, 4 samples per prompt",paged-FCFS-nofork,2,97.9485,136.821,191,136.789,143,247,0.654167,63,18911,0,0,0,0,0,0,1658407,0,0,247,0,0.654167
+"E parallel sampling, 4 samples per prompt",contig-maxlen,2,17.4877,31.8418,32,31.8406,10466,19865,10351.6,0,0,0,0,0,0,0,0,0,0,0,19865,0,10351.6
+"E parallel sampling, 4 samples per prompt",contig-oracle,2,80.5062,136.811,165,136.789,178,296,34.5287,0,0,0,0,0,0,0,0,0,0,0,296,0,34.5287
+"E parallel sampling, 4 samples per prompt",paged-FCFS,3,96.2828,137.698,207,137.676,144,247,0,0,0,4230,1465.12,2398,0,0,0,414945,0,0,247,0,0
+"E parallel sampling, 4 samples per prompt",paged-FCFS-nofork,3,97.9785,137.721,196,137.676,146,248,1.71733,143,39895,0,0,0,0,0,0,1699675,0,0,248,0,1.71733
+"E parallel sampling, 4 samples per prompt",contig-maxlen,3,17.7456,31.8106,32,31.8095,10319,19874,10222.9,0,0,0,0,0,0,0,0,0,0,0,19874,0,10222.9
+"E parallel sampling, 4 samples per prompt",contig-oracle,3,80.6541,134.137,166,134.116,195,352,50.73,0,0,0,0,0,0,0,0,0,0,0,352,0,50.73
+"E parallel sampling, 4 samples per prompt",paged-FCFS,4,96.2298,136.623,237,136.601,147,246,0,0,0,4155,1431.27,3028,0,0,0,406298,0,0,246,0,0
+"E parallel sampling, 4 samples per prompt",paged-FCFS-nofork,4,97.948,136.644,199,136.601,151,249,2.84167,133,38371,0,0,0,0,0,0,1663563,0,0,249,0,2.84167
+"E parallel sampling, 4 samples per prompt",contig-maxlen,4,17.4837,31.8481,32,31.8469,10414,20190,10426.3,0,0,0,0,0,0,0,0,0,0,0,20190,0,10426.3
+"E parallel sampling, 4 samples per prompt",contig-oracle,4,80.3153,133.448,159,133.428,208,377,61.7958,0,0,0,0,0,0,0,0,0,0,0,377,0,61.7958
+"E parallel sampling, 4 samples per prompt",paged-FCFS,5,96.2558,136.387,216,136.366,146,247,0,0,0,4209,1442.77,2412,0,0,0,411173,0,0,247,0,0
+"E parallel sampling, 4 samples per prompt",paged-FCFS-nofork,5,97.9648,136.412,197,136.366,149,251,4.22317,155,45181,0,0,0,0,0,0,1689873,0,0,251,0,4.22317
+"E parallel sampling, 4 samples per prompt",contig-maxlen,5,17.6273,31.7886,32,31.7874,10435,19966,10379.7,0,0,0,0,0,0,0,0,0,0,0,19966,0,10379.7
+"E parallel sampling, 4 samples per prompt",contig-oracle,5,80.5365,134.228,161,134.208,227,434,89.8362,0,0,0,0,0,0,0,0,0,0,0,434,0,89.8362
+"F steady load (below saturation)",paged-FCFS,1,98.3393,61.0658,88,61.0564,258,490,0,0,0,0,0,0,0,0,0,412212,0,0,490,0,0
+"F steady load (below saturation)",paged-SPF,1,98.3393,61.0658,88,61.0564,258,490,0,0,0,0,0,0,0,0,0,412212,0,0,490,0,0
+"F steady load (below saturation)",contig-maxlen,1,21.6863,31.2276,32,31.2251,3201,6147,2991.69,0,0,0,0,0,0,0,0,0,0,0,6147,0,2991.69
+"F steady load (below saturation)",contig-oracle,1,72.3244,61.0658,88,61.0564,258,490,0,0,0,0,0,0,0,0,0,0,0,0,490,0,0
+"F steady load (below saturation)",paged-FCFS,2,98.339,64.0537,90,64.0435,269,487,0,0,0,0,0,0,0,0,0,411381,0,0,487,0,0
+"F steady load (below saturation)",paged-SPF,2,98.339,64.0537,90,64.0435,269,487,0,0,0,0,0,0,0,0,0,411381,0,0,487,0,0
+"F steady load (below saturation)",contig-maxlen,2,21.6846,31.0589,32,31.0565,3648,6589,3325.09,0,0,0,0,0,0,0,0,0,0,0,6589,0,3325.09
+"F steady load (below saturation)",contig-oracle,2,72.1761,64.0537,90,64.0435,269,487,0,0,0,0,0,0,0,0,0,0,0,0,487,0,0
+"F steady load (below saturation)",paged-FCFS,3,98.3493,61.6419,88,61.6324,265,490,0,0,0,0,0,0,0,0,0,415510,0,0,490,0,0
+"F steady load (below saturation)",paged-SPF,3,98.3493,61.6419,88,61.6324,265,490,0,0,0,0,0,0,0,0,0,415510,0,0,490,0,0
+"F steady load (below saturation)",contig-maxlen,3,21.8118,31.0611,32,31.0587,3359,6427,3134.59,0,0,0,0,0,0,0,0,0,0,0,6427,0,3134.59
+"F steady load (below saturation)",contig-oracle,3,72.1617,61.6419,88,61.6324,265,490,0,0,0,0,0,0,0,0,0,0,0,0,490,0,0
+"F steady load (below saturation)",paged-FCFS,4,98.3358,62.6832,86,62.6737,280,490,0,0,0,0,0,0,0,0,0,405204,0,0,490,0,0
+"F steady load (below saturation)",paged-SPF,4,98.3358,62.6832,86,62.6737,280,490,0,0,0,0,0,0,0,0,0,405204,0,0,490,0,0
+"F steady load (below saturation)",contig-maxlen,4,21.6399,31.1334,32,31.131,3701,6607,3384.62,0,0,0,0,0,0,0,0,0,0,0,6607,0,3384.62
+"F steady load (below saturation)",contig-oracle,4,71.9098,62.6832,86,62.6737,280,490,0,0,0,0,0,0,0,0,0,0,0,0,490,0,0
+"F steady load (below saturation)",paged-FCFS,5,98.3221,60.6483,92,60.6393,274,488,0,0,0,0,0,0,0,0,0,406060,0,0,488,0,0
+"F steady load (below saturation)",paged-SPF,5,98.3221,60.6483,92,60.6393,274,488,0,0,0,0,0,0,0,0,0,406060,0,0,488,0,0
+"F steady load (below saturation)",contig-maxlen,5,21.4636,31.0216,32,31.0193,3302,6352,3094.53,0,0,0,0,0,0,0,0,0,0,0,6352,0,3094.53
+"F steady load (below saturation)",contig-oracle,5,71.9068,60.6483,92,60.6393,274,488,0,0,0,0,0,0,0,0,0,0,0,0,488,0,0
+"G prefix cache: 16 system prompts of 512 tokens, light load",paged no sharing,1,98.8572,7.02932,17,6.78119,83,127,0,0,0,0,0,0,0,0,0,910160,0,0,127,0,0
+"G prefix cache: 16 system prompts of 512 tokens, light load",paged live-parent sharing,1,98.7189,6.9856,17,6.78196,82,127,0,0,0,0,31.0164,224,0,0,0,707408,202752,0,127,0,0
+"G prefix cache: 16 system prompts of 512 tokens, light load",paged live + cache,1,99.4537,6.87924,17,6.78196,81,126,0,0,0,0,30.1994,192,0,1344,0,222032,688128,0,126,0,0
+"G prefix cache: 16 system prompts of 512 tokens, light load",paged no sharing,2,98.8574,6.86923,16,6.63493,84,127,0,0,0,0,0,0,0,0,0,906979,0,0,127,0,0
+"G prefix cache: 16 system prompts of 512 tokens, light load",paged live-parent sharing,2,98.7152,6.82336,16,6.63493,83,126,0,0,0,0,31.0659,224,0,0,0,695011,211968,0,126,0,0
+"G prefix cache: 16 system prompts of 512 tokens, light load",paged live + cache,2,99.4644,6.72238,16,6.63567,82,125,0,0,0,0,30.2325,224,0,1339,0,221411,685568,0,125,0,0
+"G prefix cache: 16 system prompts of 512 tokens, light load",paged no sharing,3,98.864,7.12797,19,6.88332,82,128,0,0,0,0,0,0,0,0,0,913265,0,0,128,0,0
+"G prefix cache: 16 system prompts of 512 tokens, light load",paged live-parent sharing,3,98.6978,7.07598,19,6.88332,82,127,0,0,0,0,37.1752,192,0,0,0,679281,233984,0,127,0,0
+"G prefix cache: 16 system prompts of 512 tokens, light load",paged live + cache,3,99.449,6.97463,19,6.88411,81,126,0,0,0,0,36.2402,192,0,1341,0,226673,686592,0,126,0,0
+"G prefix cache: 16 system prompts of 512 tokens, light load",paged no sharing,4,98.8702,7.01631,20,6.77534,81,127,0,0,0,0,0,0,0,0,0,918647,0,0,127,0,0
+"G prefix cache: 16 system prompts of 512 tokens, light load",paged live-parent sharing,4,98.7221,6.96532,20,6.77534,81,126,0,0,0,0,33.3653,256,0,0,0,689783,228864,0,126,0,0
+"G prefix cache: 16 system prompts of 512 tokens, light load",paged live + cache,4,99.4568,6.86389,20,6.77611,80,125,0,0,0,0,32.4618,256,0,1343,0,231031,687616,0,125,0,0
+"G prefix cache: 16 system prompts of 512 tokens, light load",paged no sharing,5,98.8613,6.7808,16,6.54851,84,127,0,0,0,0,0,0,0,0,0,913240,0,0,127,0,0
+"G prefix cache: 16 system prompts of 512 tokens, light load",paged live-parent sharing,5,98.7122,6.73456,16,6.54923,83,127,0,0,0,0,32.0299,160,0,0,0,694104,219136,0,127,0,0
+"G prefix cache: 16 system prompts of 512 tokens, light load",paged live + cache,5,99.4691,6.63368,16,6.54923,83,126,0,0,0,0,31.2114,160,0,1347,0,223576,689664,0,126,0,0
+"H priority classes: 25% high priority, tight memory",FCFS,1,97.9357,27.0644,36,26.9905,2215,4032,2039.63,554,152730,0,0,0,0,0,0,555613,0,4033,4032,1991.84,2057.85
+"H priority classes: 25% high priority, tight memory",SPF,1,97.9349,27.1986,44,27.1181,226,5620,1316.95,603,151659,0,0,0,0,0,0,554542,0,5916,5543,1396.64,1286.57
+"H priority classes: 25% high priority, tight memory",priority (order only),1,97.9356,27.1069,35,27.0386,2756,4092,1997.93,529,153634,0,0,0,0,0,0,556517,0,252,4137,5.63527,2757.42
+"H priority classes: 25% high priority, tight memory",priority + preemption,1,97.9357,27.0811,35,27.018,2760,4096,2000.15,782,236136,0,0,0,0,0,0,639019,0,247,4142,0.0652174,2762.61
+"H priority classes: 25% high priority, tight memory",FCFS,2,97.9401,27.107,34,27.0349,1967,3766,1834.25,543,145796,0,0,0,0,0,0,550139,0,3781,3760,1852.44,1827.83
+"H priority classes: 25% high priority, tight memory",SPF,2,97.9402,27.1911,42,27.1103,221,5582,1219.27,610,159711,0,0,0,0,0,0,564054,0,5391,5629,1138.15,1247.87
+"H priority classes: 25% high priority, tight memory",priority (order only),2,97.9405,27.0657,36,26.9973,2434,3853,1826.7,529,151263,0,0,0,0,0,0,555606,0,253,3889,6.14578,2468.58
+"H priority classes: 25% high priority, tight memory",priority + preemption,2,97.9406,27.0732,35,27.0076,2437,3851,1825.46,817,237512,0,0,0,0,0,0,641855,0,247,3885,0.0716113,2469.04
+"H priority classes: 25% high priority, tight memory",FCFS,3,97.9689,26.6729,35,26.6027,2160,4035,2026.18,544,149473,0,0,0,0,0,0,561433,0,4077,4033,2087.93,2004.94
+"H priority classes: 25% high priority, tight memory",SPF,3,97.9683,26.8603,44,26.7841,240,5697,1388.61,588,146631,0,0,0,0,0,0,558591,0,5347,5837,1241.73,1439.14
+"H priority classes: 25% high priority, tight memory",priority (order only),3,97.9688,26.681,37,26.6158,2974,4089,2056.45,521,154973,0,0,0,0,0,0,566933,0,252,4141,5.88021,2762.02
+"H priority classes: 25% high priority, tight memory",priority + preemption,3,97.9694,26.6467,38,26.583,2981,4090,2058.53,808,241503,0,0,0,0,0,0,653463,0,248,4145,0.0598958,2766.82
+"H priority classes: 25% high priority, tight memory",FCFS,4,97.9436,27.1871,36,27.1154,2143,3950,1933.5,562,155522,0,0,0,0,0,0,559286,0,3896,3965,1926.61,1935.98
+"H priority classes: 25% high priority, tight memory",SPF,4,97.943,27.3365,42,27.2546,237,5744,1281.72,642,160928,0,0,0,0,0,0,564692,0,5741,5758,1340.61,1260.52
+"H priority classes: 25% high priority, tight memory",priority (order only),4,97.9434,27.131,35,27.0628,2716,4004,1942.6,550,154177,0,0,0,0,0,0,557941,0,253,4036,8.19395,2638.85
+"H priority classes: 25% high priority, tight memory",priority + preemption,4,97.9436,27.1275,35,27.0595,2723,4005,1943.42,848,248949,0,0,0,0,0,0,652713,0,246,4038,0.0629723,2642.89
+"H priority classes: 25% high priority, tight memory",FCFS,5,97.9433,27.0123,38,26.9419,2011,3983,1923.72,545,147211,0,0,0,0,0,0,554166,0,3921,3986,1851.31,1948.72
+"H priority classes: 25% high priority, tight memory",SPF,5,97.9429,27.0066,43,26.9286,231,5713,1287.98,607,152037,0,0,0,0,0,0,558992,0,5805,5709,1277.55,1291.58
+"H priority classes: 25% high priority, tight memory",priority (order only),5,97.9434,27.0748,38,27.0084,2711,4029,1938.67,520,153815,0,0,0,0,0,0,560770,0,257,4083,6.69091,2605.76
+"H priority classes: 25% high priority, tight memory",priority + preemption,5,97.9439,27.0504,39,26.9884,2714,4027,1936.88,819,229311,0,0,0,0,0,0,636266,0,250,4081,0.0831169,2605.64
+"I swap vs recompute, tight memory",recompute, prefill 256 tok/step,1,98.333,26.4951,37,26.1514,5869,11411,5694.01,1120,322209,0,0,0,0,0,0,734421,0,0,11411,0,5694.01
+"I swap vs recompute, tight memory",swap, prefill 256 tok/step,1,98.3337,26.4748,38,26.1757,5869,11393,5684.3,1116,0,0,0,0,20566,0,0,412212,0,0,11393,0,5684.3
+"I swap vs recompute, tight memory",recompute, prefill 16 tok/step,1,98.303,27.0391,40,24.6787,6366,12303,6150.4,1145,321296,0,0,0,0,0,0,733508,0,0,12303,0,6150.4
+"I swap vs recompute, tight memory",swap, prefill 16 tok/step,1,98.3184,26.7588,37,25.3905,6120,11858,5926.24,1156,0,0,0,0,20633,0,0,412212,0,0,11858,0,5926.24
+"I swap vs recompute, tight memory",recompute, prefill 256 tok/step,2,98.3327,26.3971,40,26.0577,6279,11669,5966.23,1134,328329,0,0,0,0,0,0,739710,0,0,11669,0,5966.23
+"I swap vs recompute, tight memory",swap, prefill 256 tok/step,2,98.3336,26.4026,40,26.1084,6271,11651,5955.15,1116,0,0,0,0,20818,0,0,411381,0,0,11651,0,5955.15
+"I swap vs recompute, tight memory",recompute, prefill 16 tok/step,2,98.3026,26.8827,42,24.5469,6764,12578,6422.64,1176,330452,0,0,0,0,0,0,741833,0,0,12578,0,6422.64
+"I swap vs recompute, tight memory",swap, prefill 16 tok/step,2,98.3162,26.6766,42,25.3076,6531,12103,6196.82,1138,0,0,0,0,21039,0,0,411381,0,0,12103,0,6196.82
+"I swap vs recompute, tight memory",recompute, prefill 256 tok/step,3,98.3442,26.174,36,25.8447,6128,11728,5936.08,1083,325057,0,0,0,0,0,0,740567,0,0,11728,0,5936.08
+"I swap vs recompute, tight memory",swap, prefill 256 tok/step,3,98.3441,26.1766,36,25.8879,6112,11698,5926.59,1103,0,0,0,0,21031,0,0,415510,0,0,11698,0,5926.59
+"I swap vs recompute, tight memory",recompute, prefill 16 tok/step,3,98.3154,26.623,37,24.3003,6586,12650,6405.15,1135,330197,0,0,0,0,0,0,745707,0,0,12650,0,6405.15
+"I swap vs recompute, tight memory",swap, prefill 16 tok/step,3,98.3289,26.4756,37,25.0971,6372,12184,6176.54,1139,0,0,0,0,21151,0,0,415510,0,0,12184,0,6176.54
+"I swap vs recompute, tight memory",recompute, prefill 256 tok/step,4,98.3297,26.4024,37,26.0678,6528,11925,6165.74,1172,337087,0,0,0,0,0,0,742291,0,0,11925,0,6165.74
+"I swap vs recompute, tight memory",swap, prefill 256 tok/step,4,98.3298,26.4036,37,26.1091,6516,11897,6154.25,1193,0,0,0,0,22036,0,0,405204,0,0,11897,0,6154.25
+"I swap vs recompute, tight memory",recompute, prefill 16 tok/step,4,98.2985,26.9374,38,24.6205,6999,12790,6615.9,1268,344683,0,0,0,0,0,0,749887,0,0,12790,0,6615.9
+"I swap vs recompute, tight memory",swap, prefill 16 tok/step,4,98.3136,26.6783,38,25.3733,6754,12338,6384.27,1225,0,0,0,0,22136,0,0,405204,0,0,12338,0,6384.27
+"I swap vs recompute, tight memory",recompute, prefill 256 tok/step,5,98.3158,26.582,38,26.2442,6094,11660,5842.82,1167,329891,0,0,0,0,0,0,735951,0,0,11660,0,5842.82
+"I swap vs recompute, tight memory",swap, prefill 256 tok/step,5,98.3163,26.5759,39,26.2813,6088,11642,5834.09,1162,0,0,0,0,21046,0,0,406060,0,0,11642,0,5834.09
+"I swap vs recompute, tight memory",recompute, prefill 16 tok/step,5,98.2835,27.0879,40,24.7786,6565,12562,6293,1182,333666,0,0,0,0,0,0,739726,0,0,12562,0,6293
+"I swap vs recompute, tight memory",swap, prefill 16 tok/step,5,98.2981,26.8652,40,25.5166,6332,12100,6067.15,1163,0,0,0,0,20967,0,0,406060,0,0,12100,0,6067.15

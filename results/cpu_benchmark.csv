@@ -1,0 +1,10 @@
+benchmark,ops,median_s,min_s,max_s
+"allocator: allocate+release, 1M blocks x 3 rounds",6.29146e+06,0.0200527,0.0197305,0.0227499
+"kv_manager: append_token, 256 reqs x 4096 tokens, B=16",1.04858e+06,0.0199872,0.0193284,0.0212783
+"kv_manager: admit_with_prefix+free, 200k requests",400000,0.112155,0.110424,0.122488
+"kv_manager: stats(), 200 live requests x 20k calls",20000,0.000186788,0.000184305,0.000209032
+"simulator: scenario A paged-FCFS (ops = simulated steps)",3478,0.013346,0.0132711,0.0140678
+"simulator: scenario A paged-FCFS (ops = generated tokens)",395279,0.013346,0.0132711,0.0140678
+"simulator: same, with validate_each_step (ops = steps)",3478,13.2935,13.2628,13.3822
+"simulator: scenario A contig-maxlen (ops = simulated steps)",12629,0.00145142,0.00143161,0.0017431
+"workload: generate 100k requests",100000,0.00528087,0.00517197,0.00618468

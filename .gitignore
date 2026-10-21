@@ -1,0 +1,7 @@
+*.o
+build*/
+__pycache__/
+*.pyc
+fuzz/corpus/
+.tmp_*
+bash.exe.stackdump
